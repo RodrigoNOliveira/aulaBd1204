@@ -1,0 +1,14 @@
+SELECT * FROM sakila.f     ilm_text;
+
+update film set description='Filme do kid' where rating='R' and rental_duration='7' and release_year='2006'; 
+
+update film_text set title='Jack Spears' where title='AFRICAN EGG' or title='ARK RIDGEMONT'; 
+
+delete from film_actor where film_id=23 and actor_id=4;
+
+
+delete from film_category where category_id=9 and film_id=11;
+
+delete from payment where amount=2.99 and rental_id=5636;
+
+delete from payment;
